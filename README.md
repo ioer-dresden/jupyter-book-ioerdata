@@ -1,4 +1,4 @@
-[![version](https://training.fdz.ioer.info/version.svg)][static-gl-url] [![pipeline](https://training.fdz.ioer.info/pipeline.svg)][static-gl-url] [![doi](https://training.fdz.ioer.info/doi.svg)][doi-url]
+[![version](https://ioerdata.training.fdz.ioer.info/version.svg)][static-gl-url] [![pipeline](https://ioerdata.training.fdz.ioer.info/pipeline.svg)][static-gl-url] [![doi](https://training.fdz.ioer.info/doi.svg)][doi-url]
 
 # ioerDATA Training Materials
 
@@ -18,7 +18,7 @@ The workflow is as follows:
     notebooks/01_introduction.ipynb-->01_introduction.md-->HTML-->Gitlab-CI-->Webserver-->'training.fdz.ioer.info'
  ```
 
-See the [Contribution Documentation](https://training.fdz.ioer.info/CONTRIBUTING.html) for a brief walkthrough of the collaboration process.
+See the [Contribution Documentation](https://ioerdata.training.fdz.ioer.info/CONTRIBUTING.html) for a brief walkthrough of the collaboration process.
 
 ## Developers
 
@@ -29,6 +29,6 @@ See the [Contribution Documentation](https://training.fdz.ioer.info/CONTRIBUTING
   provided at the beginning of the [Part I - Introduction][1].
 - See [the Contributing](https://training.fdz.ioer.info/CONTRIBUTING.html) section for a step by step description
 
-[1]: https://training.fdz.ioer.info/notebooks/102_jupyter_notebooks.html#carto-lab-docker
-[static-gl-url]: https://gitlab.hrz.tu-chemnitz.de/ioer/fdz/jupyter-book-nfdi4biodiversity
-[doi-url]: https://doi.org/10.71830/6ILS40
+[1]: https://ioerdata.training.fdz.ioer.info/notebooks/102_jupyter_notebooks.html#carto-lab-docker
+[static-gl-url]: https://gitlab.hrz.tu-chemnitz.de/ioer/fdz/training/jupyter-book-ioerdata
+[doi-url]: https://tbd
