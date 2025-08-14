@@ -7,6 +7,19 @@
 
 
  
+## v0.1.1 (2025-08-14)
+ 
+### Bug fixes
+ 
+
+
+- Basic links and badge version url/doi ([`3c820c8`](https://gitlab.hrz.tu-chemnitz.de/ioer/fdz/training/jupyter-book-ioerdata/-/commit/3c820c882d7b3cb7e8c34bf5f4d7eefc8f204750))
+
+
+
+ 
+ 
+ 
 ## v0.1.0 (2025-08-14)
  
 ### Features
