@@ -7,16 +7,17 @@ parts:
 
 - caption: Part I - Introduction
   chapters:
-  - file: notebooks/101_theory_chapters
+  - file: notebooks/101_About IOER Research Data Center
   - file: notebooks/102_jupyter_notebooks
 
 - caption: Part II - Workflow
   chapters:
-  - file: notebooks/201_example_introduction
-  - file: notebooks/202_data_retrieval_gbif
-  - file: notebooks/203_data_retrieval_monitor
-  - file: notebooks/204_analysis
-  - file: notebooks/205_publish
+  - file: notebooks/00_example_introduction
+  - file: notebooks/ioerdata_api/01_download_from_dataverse
+  - file: notebooks/ioerdata_api/02_explanation
+  - file: notebooks/ioerdata_api/03_basic_visualization
+  - file: notebooks/ioerdata_api/04_advanced_visualization
+  - file: notebooks/ioerdata_api/documentation
   
 - caption: Further Reading
   chapters:
