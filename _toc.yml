@@ -7,7 +7,7 @@ parts:
 
 - caption: Part I - Introduction
   chapters:
-  - file: notebooks/101_About IOER Research Data Center
+  - file: notebooks/101_about_ioer_research_data_center
   - file: notebooks/102_jupyter_notebooks
 
 - caption: Part II - Workflow
