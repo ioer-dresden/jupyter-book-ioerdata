@@ -10,7 +10,7 @@ parts:
   - file: notebooks/101_about_ioer_research_data_center
   - file: notebooks/102_jupyter_notebooks
 
-- caption: Part II - Workflow
+- caption: Part II - IOER data via Dataverse API
   chapters:
   - file: notebooks/00_example_introduction
   - file: notebooks/ioerdata_api/01_download_from_dataverse
