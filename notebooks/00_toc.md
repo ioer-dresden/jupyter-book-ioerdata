@@ -24,6 +24,7 @@ jupyter:
 
 ## Part II: IOER data via Dataverse API
 
+- [Accessing Restricted Data](/ioerdata_api/00_data_access)
 - [Download from Dataverse](/ioerdata_api/01_download_from_dataverse)
 - [Explanation of Replication Package](/ioerdata_api/02_explanation)
 - [Basic Visualization](/ioerdata_api/03_basic_visualization)
