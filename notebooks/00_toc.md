@@ -13,7 +13,7 @@ jupyter:
     name: python3
 ---
 
-<!-- #region slideshow={"slide_type": ""} editable=true -->
+<!-- #region editable=true slideshow={"slide_type": ""} -->
 # Table of Contents
 
 - [Preface](../intro)
