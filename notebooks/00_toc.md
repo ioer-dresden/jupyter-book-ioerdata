@@ -6,7 +6,7 @@ jupyter:
       extension: .md
       format_name: markdown
       format_version: '1.3'
-      jupytext_version: 1.17.1
+      jupytext_version: 1.17.2
   kernelspec:
     display_name: Python 3 (ipykernel)
     language: python
@@ -20,16 +20,15 @@ jupyter:
 
 ## Part I: Introduction
 
-- [Theory chapters](101_theory_chapters)
 - [Setup & Getting familiar with Jupyter](102_jupyter_notebooks)
 
-## Part II: Workflow
+## Part II: IOER data via Dataverse API
 
-- [Exploring spatial and biodiversity data](201_example_introduction)
-- [Data Retrieval: GBIF & LAND](202_data_retrieval_gbif)
-- [Data Retrieval: IOER Monitor](203_data_retrieval_monitor)
-- [Data Analysis & Visualization](204_analysis)
-- [Publishing](205_publish)
+- [Download from Dataverse](/ioerdata_api/01_download_from_dataverse)
+- [Explanation of Replication Package](/ioerdata_api/02_explanation)
+- [Basic Visualization](/ioerdata_api/03_basic_visualization)
+- [Advanced Visualization](/04_advanced_visualization)
+- [Documentation](ioerdata_api/documentation)
 
 ## Part III: Reference documentation
 
