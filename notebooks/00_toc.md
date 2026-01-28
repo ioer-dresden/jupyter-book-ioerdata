@@ -20,6 +20,7 @@ jupyter:
 
 ## Part I: Introduction
 
+- [About IOER Research Data Center](101_about_ioer_research_data_center)
 - [Setup & Getting familiar with Jupyter](102_jupyter_notebooks)
 
 ## Part II: IOER data via Dataverse API

@@ -12,7 +12,7 @@ parts:
 
 - caption: Part II - IOER data via Dataverse API
   chapters:
-  - file: notebooks/00_example_introduction
+  - file: notebooks/00_data_access
   - file: notebooks/ioerdata_api/01_download_from_dataverse
   - file: notebooks/ioerdata_api/02_explanation
   - file: notebooks/ioerdata_api/03_basic_visualization
