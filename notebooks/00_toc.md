@@ -32,18 +32,15 @@ jupyter:
 - [Advanced Visualization](/04_advanced_visualization)
 - [Documentation](ioerdata_api/documentation)
 
-## Part III: Reference documentation
+## Part III: Urban Data Investigator
 
-- [Accessing Data](301_accessing_data)
-- [File formats](302_file_formats)
-- [Projections](303_projections)
-- [Selecting and filtering](304_selecting_and_filtering)
-- [Creating maps](305_mapping)
-- [Spatial clipping](306_spatial_clipping)
-- [Merging data](307_merging_data)
-- [Spatial overlays](308_spatial_overlays)
-- [Buffering](309_buffering)
-- [Statistics](310_statistics)
+- [Mission 1](20_find_the_dataset)
+- [Mission 2](21_Inspect_the_dataset)
+- [Mission 3](22_Understand_the_contents)
+- [Mission 4](23_Produce_first_insights)
+- [Mission 5](24_Create_visual_evidence)
+- [Mission 6](25_Go_beyond)
+  
 
 ## Further Reading
 

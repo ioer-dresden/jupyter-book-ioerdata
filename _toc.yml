@@ -18,6 +18,15 @@ parts:
   - file: notebooks/ioerdata_api/03_basic_visualization
   - file: notebooks/ioerdata_api/04_advanced_visualization
   - file: notebooks/ioerdata_api/documentation
+
+- caption: Part III: Urban Data Investigator
+  chapters:
+  - file: notebooks/ioerdata_api/20_find_the_dataset
+  - file: notebooks/ioerdata_api/21_Inspect_the_dataset
+  - file: notebooks/ioerdata_api/22_Understand_the_contents
+  - file: notebooks/ioerdata_api/23_Produce_first_insights
+  - file: notebooks/ioerdata_api/24_Create_visual_evidence
+  - file: notebooks/ioerdata_api/Go_beyond
   
 - caption: Further Reading
   chapters:
