@@ -34,12 +34,12 @@ jupyter:
 
 ## Part III: Urban Data Investigator
 
-- [Mission 1](20_find_the_dataset)
-- [Mission 2](21_Inspect_the_dataset)
-- [Mission 3](22_Understand_the_contents)
-- [Mission 4](23_Produce_first_insights)
-- [Mission 5](24_Create_visual_evidence)
-- [Mission 6](25_Go_beyond)
+- [Mission 1](/ioerdata_api/20_find_the_dataset)
+- [Mission 2](/ioerdata_api/21_Inspect_the_dataset)
+- [Mission 3](/ioerdata_api/22_Understand_the_contents)
+- [Mission 4](/ioerdata_api/23_Produce_first_insights)
+- [Mission 5](/ioerdata_api/24_Create_visual_evidence)
+- [Mission 6](/ioerdata_api/25_Go_beyond)
   
 
 ## Further Reading
