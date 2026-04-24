@@ -32,24 +32,19 @@ jupyter:
 - [Advanced Visualization](/04_advanced_visualization)
 - [Documentation](ioerdata_api/documentation)
 
-## Part III: Urban Data Investigator
-
-- [Mission 1](/ioerdata_api/30_find_the_dataset)
-- [Mission 2](/ioerdata_api/31_Inspect_the_dataset)
-- [Mission 3](/ioerdata_api/32_Understand_the_contents)
-- [Mission 4](/ioerdata_api/33_Produce_first_insights)
-- [Mission 5](/ioerdata_api/34_Create_visual_evidence)
-- [Mission 6](/ioerdata_api/35_Go_beyond)
   
-
 ## Further Reading
 
 - [Thank You](401_endmatter-thanks)
 
-## Datasets
+## Urban Data Investigator
 
-- [Maps for Milvus milvus](10_milvus_maps)
-- [Exploration of geosocial patterns (Germany)](11_geosocialmedia)
+- [Mission 1](/ioerdata_api/30_find_the_dataset)
+- [Mission 2](/ioerdata_api/31_inspect_the_dataset)
+- [Mission 3](/ioerdata_api/32_understand_the_contents)
+- [Mission 4](/ioerdata_api/33_produce_first_insights)
+- [Mission 5](/ioerdata_api/34_create_visual_evidence)
+- [Mission 6](/ioerdata_api/35_go_beyond)
 
 ## Developers
 

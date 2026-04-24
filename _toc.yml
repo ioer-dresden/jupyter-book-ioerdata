@@ -18,15 +18,6 @@ parts:
   - file: notebooks/ioerdata_api/03_basic_visualization
   - file: notebooks/ioerdata_api/04_advanced_visualization
   - file: notebooks/ioerdata_api/documentation
-
-- caption: Part III: Urban Data Investigator
-  chapters:
-  - file: notebooks/ioerdata_api/30_find_the_dataset
-  - file: notebooks/ioerdata_api/31_Inspect_the_dataset
-  - file: notebooks/ioerdata_api/32_Understand_the_contents
-  - file: notebooks/ioerdata_api/33_Produce_first_insights
-  - file: notebooks/ioerdata_api/34_Create_visual_evidence
-  - file: notebooks/ioerdata_api/35_Go_beyond
   
 - caption: Further Reading
   chapters:
@@ -35,10 +26,14 @@ parts:
   - file: notebooks/401_endmatter-thanks
 
 
-- caption: Further Datasets
+- caption: Urban Data Investigator
   chapters:
-  - file: notebooks/501_milvus_maps
-  - file: notebooks/502_geosocialmedia
+  - file: notebooks/ioerdata_api/30_find_the_dataset
+  - file: notebooks/ioerdata_api/31_inspect_the_dataset
+  - file: notebooks/ioerdata_api/32_understand_the_contents
+  - file: notebooks/ioerdata_api/33_produce_first_insights
+  - file: notebooks/ioerdata_api/34_create_visual_evidence
+  - file: notebooks/ioerdata_api/35_go_beyond
 
 - caption: Developers
   chapters:
