@@ -23,7 +23,7 @@ jupyter:
 - [About IOER Research Data Center](101_about_ioer_research_data_center)
 - [Setup & Getting familiar with Jupyter](102_jupyter_notebooks)
 
-## Part II: IOER data via Dataverse API
+## Part II: ioerDATA via Dataverse API
 
 - [Accessing Restricted Data](/ioerdata_api/00_data_access)
 - [Download from Dataverse](/ioerdata_api/01_download_from_dataverse)
@@ -37,7 +37,7 @@ jupyter:
 
 - [Thank You](401_endmatter-thanks)
 
-## Urban Data Investigator
+## Urban Data Investigator 🕵️
 
 - [Mission 1](/ioerdata_api/30_find_the_dataset)
 - [Mission 2](/ioerdata_api/31_inspect_the_dataset)
