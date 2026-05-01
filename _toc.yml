@@ -10,7 +10,7 @@ parts:
   - file: notebooks/101_about_ioer_research_data_center
   - file: notebooks/102_jupyter_notebooks
 
-- caption: Part II - IOER data via Dataverse API
+- caption: Part II - ioerDATA via Dataverse API
   chapters:
   - file: notebooks/ioerdata_api/00_data_access
   - file: notebooks/ioerdata_api/01_download_from_dataverse
@@ -26,7 +26,7 @@ parts:
   - file: notebooks/401_endmatter-thanks
 
 
-- caption: Urban Data Investigator
+- caption: Urban Data Investigator 🕵️
   chapters:
   - file: notebooks/ioerdata_api/30_find_the_dataset
   - file: notebooks/ioerdata_api/31_inspect_the_dataset

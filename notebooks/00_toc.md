@@ -18,12 +18,12 @@ jupyter:
 
 - [Preface](../intro)
 
-## Part I: Introduction
+## Part I: Introduction 📘
 
 - [About IOER Research Data Center](101_about_ioer_research_data_center)
 - [Setup & Getting familiar with Jupyter](102_jupyter_notebooks)
 
-## Part II: ioerDATA via Dataverse API
+## Part II: ioerDATA via Dataverse API 📡
 
 - [Accessing Restricted Data](/ioerdata_api/00_data_access)
 - [Download from Dataverse](/ioerdata_api/01_download_from_dataverse)
@@ -33,7 +33,7 @@ jupyter:
 - [Documentation](ioerdata_api/documentation)
 
   
-## Further Reading
+## Further Reading 📖
 
 - [Thank You](401_endmatter-thanks)
 
@@ -46,7 +46,7 @@ jupyter:
 - [Mission 5](/ioerdata_api/34_create_visual_evidence)
 - [Mission 6](/ioerdata_api/35_go_beyond)
 
-## Developers
+## Developers 👨‍💻
 
 - [Contributing](../CONTRIBUTING)
 - [Changelog](../CHANGELOG)
