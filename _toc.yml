@@ -5,12 +5,12 @@ parts:
   chapters:
   - file: notebooks/00_toc
 
-- caption: Part I - Introduction 📘
+- caption: Part I - Introduction 
   chapters:
   - file: notebooks/101_about_ioer_research_data_center
   - file: notebooks/102_jupyter_notebooks
 
-- caption: Part II - ioerDATA via Dataverse API 📡
+- caption: Part II - ioerDATA via Dataverse API 
   chapters:
   - file: notebooks/ioerdata_api/00_data_access
   - file: notebooks/ioerdata_api/01_download_from_dataverse
@@ -19,7 +19,7 @@ parts:
   - file: notebooks/ioerdata_api/04_advanced_visualization
   - file: notebooks/ioerdata_api/documentation
   
-- caption: Further Reading 📖
+- caption: Further Reading 
   chapters:
   - file: BIBLIOGRAPHY
     title: Bibliography
@@ -35,7 +35,7 @@ parts:
   - file: notebooks/ioerdata_api/34_create_visual_evidence
   - file: notebooks/ioerdata_api/35_go_beyond
 
-- caption: Developers 👨‍💻
+- caption: Developers 
   chapters:
   - file: CONTRIBUTING
     title: Contributing
