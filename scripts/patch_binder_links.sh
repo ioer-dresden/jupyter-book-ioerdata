@@ -13,4 +13,7 @@ sed -i '/url = f"{url}?urlpath=/a \        url += "&flavor=xl1nfdi&system=JSC-Cl
 sed -i 's/"text": "Binder"/"text": "Jupyter4NFDI"/' "$LAUNCH_PY"
 sed -i 's/"Launch on" \+ " Binder"/"Launch on Jupyter4NFDI"/' "$LAUNCH_PY"
 
+# Fix URL-encoding for custom GitLab instances by quoting forward slashes
+sed -i 's|quote(repo_url)|quote(repo_url, safe="")|g' "$LAUNCH_PY"
+
 echo "Patch applied successfully."
