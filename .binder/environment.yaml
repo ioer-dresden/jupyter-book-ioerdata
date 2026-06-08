@@ -1,0 +1,11 @@
+name: ioerdata_env
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python>=3.10
+  - jupyterlab>=4.4.0
+  - jupytext
+  - jupyterlab-git
+  - pip
+  - myst-nb
