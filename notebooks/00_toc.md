@@ -20,17 +20,17 @@ jupyter:
 
 ## Part I: Introduction 📘
 
-- [About IOER Research Data Center](001_about_ioer_research_data_center)
-- [Setup & Getting familiar with Jupyter](002_jupyter_notebooks)
+- [About IOER Research Data Center](notebooks/001_about_ioer_research_data_center)
+- [Setup & Getting familiar with Jupyter](notebooks/002_jupyter_notebooks)
 
 ## Part II: ioerDATA via Dataverse API 📡
 
-- [Accessing Restricted Data](/101_data_access)
-- [Download from Dataverse](/102_download_from_dataverse)
-- [Explanation of Replication Package](/103_explanation)
-- [Basic Visualization](/104_basic_visualization)
-- [Advanced Visualization](/105_advanced_visualization)
-- [Documentation](/documentation)
+- [Accessing Restricted Data](notebooks/101_data_access)
+- [Download from Dataverse](notebooks/102_download_from_dataverse)
+- [Explanation of Replication Package](notebooks/103_explanation)
+- [Basic Visualization](notebooks/104_basic_visualization)
+- [Advanced Visualization](notebooks/105_advanced_visualization)
+- [Documentation](notebooks/documentation)
 
   
 ## Further Reading 📖
@@ -39,12 +39,12 @@ jupyter:
 
 ## Urban Data Investigator 🕵️
 
-- [Mission 1](/301_find_the_dataset)
-- [Mission 2](/302_inspect_the_dataset)
-- [Mission 3](/303_understand_the_contents)
-- [Mission 4](/304_produce_first_insights)
-- [Mission 5](/305_create_visual_evidence)
-- [Mission 6](/306_go_beyond)
+- [Mission 1](notebooks/301_find_the_dataset)
+- [Mission 2](notebooks/302_inspect_the_dataset)
+- [Mission 3](notebooks/303_understand_the_contents)
+- [Mission 4](notebooks/304_produce_first_insights)
+- [Mission 5](notebooks/305_create_visual_evidence)
+- [Mission 6](notebooks/306_go_beyond)
 
 ## Developers 👨‍💻
 
