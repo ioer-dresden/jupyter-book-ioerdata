@@ -28,9 +28,9 @@ parts:
 
 - caption: Urban Data Investigator 🕵️
   chapters:
-  - file: notebooks/301_find_the_dataset
-  - file: notebooks/302_mission_2_unlock
-  - file: notebooks/303_mission_3_unlock
+  - file: notebooks/301_mission1_content
+  - file: notebooks/302_mission2_unlock
+  - file: notebooks/303_mission3_unlock
   - file: notebooks/304_produce_first_insights
   - file: notebooks/305_create_visual_evidence
   - file: notebooks/306_go_beyond
