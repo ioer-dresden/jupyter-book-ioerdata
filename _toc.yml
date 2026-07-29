@@ -5,6 +5,12 @@ parts:
   chapters:
   - file: notebooks/00_toc
 
+- caption: Front matter
+  chapters: 
+  - file: notebooks/001_authors.ipynb
+  - file: notebooks/002_license.ipynb
+  - file: notebooks/003_disclaimer.ipynb
+
 - caption: Part I - Introduction 
   chapters:
   - file: notebooks/001_about_ioer_research_data_center
