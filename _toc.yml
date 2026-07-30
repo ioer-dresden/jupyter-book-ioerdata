@@ -1,10 +1,9 @@
 format: jb-book
-root: intro
+root: 00_intro
 parts:
 - caption: Preface
   chapters:
-  - file: 00_intro.ipynb
-  - file: notebooks/00_toc
+  - file: intro.ipynb
 
 - caption: Front matter
   chapters: 
