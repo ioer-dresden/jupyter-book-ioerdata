@@ -3,6 +3,7 @@ root: intro
 parts:
 - caption: Preface
   chapters:
+  - file: jupyter-book-ioerdata/00_intro.ipynb
   - file: notebooks/00_toc
 
 - caption: Front matter
