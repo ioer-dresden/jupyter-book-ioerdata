@@ -11,6 +11,12 @@ parts:
   - file: notebooks/002_license.ipynb
   - file: notebooks/003_disclaimer.ipynb
 
+- caption: Getting started
+  chapters: 
+  - file: notebooks/004_data_repository.ipynb
+  - file: notebooks/005_setup.ipynb
+
+
 - caption: Part I - Introduction 
   chapters:
   - file: notebooks/001_about_ioer_research_data_center
