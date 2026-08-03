@@ -39,11 +39,11 @@ jupyter:
 
 ## Urban Data Investigator 🕵️
 
-- [Mission 1](notebooks/301_find_the_dataset)
+- [Mission 1](notebooks/301_mission1_content)
 - [Mission 2](notebooks/302_mission_2_unlock)
-- [Mission 2](notebooks/302_inspect_the_dataset)
-- [Mission 2](notebooks/303_mission_3_unlock)
-- [Mission 3](notebooks/303_understand_the_contents)
+- [Mission 2](notebooks/303_mission2_content)
+- [Mission 2](notebooks/304_mission3_unlock)
+- [Mission 3](notebooks/305_mission3_contents)
 - [Mission 4](notebooks/304_produce_first_insights)
 - [Mission 5](notebooks/305_create_visual_evidence)
 - [Mission 6](notebooks/306_go_beyond)
