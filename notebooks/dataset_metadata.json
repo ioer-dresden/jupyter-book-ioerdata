@@ -1,0 +1,878 @@
+{
+  "status": "OK",
+  "data": {
+    "id": 849,
+    "identifier": "AFW3N3",
+    "persistentUrl": "https://doi.org/10.71830/AFW3N3",
+    "protocol": "doi",
+    "authority": "10.71830",
+    "separator": "/",
+    "publisher": "ioerDATA",
+    "publicationDate": "2025-07-22",
+    "storageIdentifier": "s3_direct_storage://10.71830/AFW3N3",
+    "datasetType": "dataset",
+    "locks": [],
+    "latestVersion": {
+      "id": 135,
+      "datasetId": 849,
+      "datasetPersistentId": "doi:10.71830/AFW3N3",
+      "datasetType": "dataset",
+      "storageIdentifier": "s3_direct_storage://10.71830/AFW3N3",
+      "versionNumber": 1,
+      "internalVersionNumber": 4,
+      "versionMinorNumber": 4,
+      "versionState": "RELEASED",
+      "latestVersionPublishingState": "RELEASED",
+      "lastUpdateTime": "2025-12-18T11:48:31Z",
+      "releaseTime": "2025-12-18T11:48:31Z",
+      "createTime": "2025-12-18T11:48:24Z",
+      "publicationDate": "2025-07-22",
+      "citationDate": "2025-07-22",
+      "license": {
+        "name": "CC BY 4.0",
+        "uri": "http://creativecommons.org/licenses/by/4.0",
+        "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      },
+      "termsOfAccess": "You can download this file after registration and login.",
+      "dataAccessPlace": "\n",
+      "fileAccessRequest": true,
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "name": "citation",
+          "fields": [
+            {
+              "typeName": "title",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Replication package for: Climate Regulation in Cities"
+            },
+            {
+              "typeName": "author",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Syrbe, Ralf-Uwe"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Leibniz Institute of Ecological Urban and Regional Development"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://orcid.org/0000-0002-0061-2467"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Meier, Sophie"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Leibniz Institute of Ecological Urban and Regional Development"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://orcid.org/0000-0001-5725-7470"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Oyshi, Marzan Tasnim"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Leibniz Institute of Ecological Urban and Regional Development"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://orcid.org/0000-0001-9661-1591"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "datasetContact",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "datasetContactName": {
+                    "typeName": "datasetContactName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Syrbe, Ralf-Uwe"
+                  },
+                  "datasetContactAffiliation": {
+                    "typeName": "datasetContactAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Leibniz Institute of Ecological Urban and Regional Development"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "dsDescription",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "dsDescriptionValue": {
+                    "typeName": "dsDescriptionValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "This dataset presents a national indicator of local climate regulation provided by urban green infrastructure (UGI) across 165 German cities. It quantifies the physical cooling capacity of urban green spaces and the proportion of the population benefiting from these services using geospatial methods."
+                  },
+                  "dsDescriptionDate": {
+                    "typeName": "dsDescriptionDate",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "2025-06-16"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "subject",
+              "multiple": true,
+              "typeClass": "controlledVocabulary",
+              "value": [
+                "Earth and Environmental Sciences"
+              ]
+            },
+            {
+              "typeName": "keyword",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "climate adaptation"
+                  },
+                  "keywordTermURI": {
+                    "typeName": "keywordTermURI",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://gca.org/what-is-climate-adaptation/"
+                  },
+                  "keywordVocabulary": {
+                    "typeName": "keywordVocabulary",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Climate policy"
+                  },
+                  "keywordVocabularyURI": {
+                    "typeName": "keywordVocabularyURI",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "http://zbw.eu/stw/descriptor/29577-0"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "cooling"
+                  },
+                  "keywordTermURI": {
+                    "typeName": "keywordTermURI",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.unep.org/topics/energy/cooling/about-cooling"
+                  },
+                  "keywordVocabulary": {
+                    "typeName": "keywordVocabulary",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "cooling"
+                  },
+                  "keywordVocabularyURI": {
+                    "typeName": "keywordVocabularyURI",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.eionet.europa.eu/gemet/en/concept/1781"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "green space"
+                  },
+                  "keywordTermURI": {
+                    "typeName": "keywordTermURI",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.sciencedirect.com/science/article/pii/S0169204616302146"
+                  },
+                  "keywordVocabulary": {
+                    "typeName": "keywordVocabulary",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "green space"
+                  },
+                  "keywordVocabularyURI": {
+                    "typeName": "keywordVocabularyURI",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "http://www.eionet.europa.eu/gemet/concept/3770"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "urban heat island"
+                  },
+                  "keywordTermURI": {
+                    "typeName": "keywordTermURI",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.umweltbundesamt.at/umweltthemen/boden/rp-projekte/urban-climate-change-adaptation"
+                  },
+                  "keywordVocabulary": {
+                    "typeName": "keywordVocabulary",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "municipal heating network"
+                  },
+                  "keywordVocabularyURI": {
+                    "typeName": "keywordVocabularyURI",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "http://www.eionet.europa.eu/gemet/concept/14418"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "urban planning"
+                  },
+                  "keywordTermURI": {
+                    "typeName": "keywordTermURI",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://difu.de/en/topics/urban-development-and-planning"
+                  },
+                  "keywordVocabulary": {
+                    "typeName": "keywordVocabulary",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Urban Planning"
+                  },
+                  "keywordVocabularyURI": {
+                    "typeName": "keywordVocabularyURI",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://w3id.org/skgo/modsci#UrbanPlanning"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "publication",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "publicationRelationType": {
+                    "typeName": "publicationRelationType",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "Cites"
+                  },
+                  "publicationCitation": {
+                    "typeName": "publicationCitation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Syrbe, R.-U. et al. (2024). *Assessment and Monitoring of Local Climate Regulation in Cities by Green Infrastructure—A National Ecosystem Service Indicator for Germany*. Land, 13(5), 689. https://doi.org/10.3390/land13050689"
+                  },
+                  "publicationIDType": {
+                    "typeName": "publicationIDType",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "doi"
+                  },
+                  "publicationIDNumber": {
+                    "typeName": "publicationIDNumber",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://doi.org/10.3390/land13050689"
+                  },
+                  "publicationURL": {
+                    "typeName": "publicationURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://www.mdpi.com/2073-445X/13/5/689"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "contributor",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "contributorType": {
+                    "typeName": "contributorType",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "Data Curator"
+                  },
+                  "contributorName": {
+                    "typeName": "contributorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Tang, Gongmingyue"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "depositor",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Oyshi, Marzan Tasnim"
+            },
+            {
+              "typeName": "dateOfDeposit",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "2025-06-16"
+            }
+          ]
+        },
+        "geospatial": {
+          "displayName": "Geospatial Metadata",
+          "name": "geospatial",
+          "fields": []
+        },
+        "computationalworkflow": {
+          "displayName": "Computational Workflow Metadata",
+          "name": "computationalworkflow",
+          "fields": [
+            {
+              "typeName": "workflowType",
+              "multiple": true,
+              "typeClass": "controlledVocabulary",
+              "value": [
+                "Other Python-based workflow"
+              ]
+            },
+            {
+              "typeName": "workflowCodeRepository",
+              "multiple": true,
+              "typeClass": "primitive",
+              "value": [
+                "https://github.com/SophieMeier/Climate-Regulation-Service"
+              ]
+            },
+            {
+              "typeName": "workflowDocumentation",
+              "multiple": true,
+              "typeClass": "primitive",
+              "value": [
+                "https://github.com/SophieMeier/Climate-Regulation-Service/blob/main/README.md"
+              ]
+            }
+          ]
+        }
+      },
+      "files": [
+        {
+          "label": "Assessment and Monitoring of Local Climate Regulation in Cities by Green Infrastructure—A National Ecosystem Service Indicator for Ge.pdf",
+          "restricted": false,
+          "directoryLabel": "other/paper",
+          "version": 1,
+          "datasetVersionId": 135,
+          "categories": [
+            "Article"
+          ],
+          "dataFile": {
+            "id": 862,
+            "persistentId": "",
+            "filename": "Assessment and Monitoring of Local Climate Regulation in Cities by Green Infrastructure—A National Ecosystem Service Indicator for Ge.pdf",
+            "contentType": "application/pdf",
+            "friendlyType": "Adobe PDF",
+            "filesize": 11200912,
+            "categories": [
+              "Article"
+            ],
+            "storageIdentifier": "s3_direct_storage://dataverse:19779fb97a6-57481d8b1744",
+            "rootDataFileId": -1,
+            "md5": "1a28f72ee295d620bae2a19e668e57b5",
+            "checksum": {
+              "type": "MD5",
+              "value": "1a28f72ee295d620bae2a19e668e57b5"
+            },
+            "tabularData": false,
+            "creationDate": "2025-06-16",
+            "publicationDate": "2025-07-22",
+            "directoryLabel": "other/paper",
+            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "label": "Climate regulation in cities as an ecosystem service_German.pdf",
+          "restricted": false,
+          "directoryLabel": "other/paper",
+          "version": 1,
+          "datasetVersionId": 135,
+          "categories": [
+            "Article"
+          ],
+          "dataFile": {
+            "id": 911,
+            "persistentId": "",
+            "filename": "Climate regulation in cities as an ecosystem service_German.pdf",
+            "contentType": "application/pdf",
+            "friendlyType": "Adobe PDF",
+            "filesize": 16359728,
+            "categories": [
+              "Article"
+            ],
+            "storageIdentifier": "s3_direct_storage://dataverse:197f564c45f-50d776b2841a",
+            "rootDataFileId": -1,
+            "md5": "2827faa5afc4bc1dc351cda0a36a10a4",
+            "checksum": {
+              "type": "MD5",
+              "value": "2827faa5afc4bc1dc351cda0a36a10a4"
+            },
+            "tabularData": false,
+            "creationDate": "2025-07-10",
+            "publicationDate": "2025-07-22",
+            "directoryLabel": "other/paper",
+            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "label": "Cooling_Capacity_2018_buffered.gdb.zip",
+          "restricted": false,
+          "directoryLabel": "other/input_data",
+          "version": 1,
+          "datasetVersionId": 135,
+          "dataFile": {
+            "id": 902,
+            "persistentId": "",
+            "filename": "Cooling_Capacity_2018_buffered.gdb.zip",
+            "contentType": "application/zip",
+            "friendlyType": "ZIP Archive",
+            "filesize": 229243224,
+            "storageIdentifier": "s3_direct_storage://dataverse:197d07b6f20-a79610e8c2a9",
+            "rootDataFileId": -1,
+            "md5": "c17345ab0af6241db04444d8ce37b74a",
+            "checksum": {
+              "type": "MD5",
+              "value": "c17345ab0af6241db04444d8ce37b74a"
+            },
+            "tabularData": false,
+            "creationDate": "2025-07-03",
+            "publicationDate": "2025-07-22",
+            "directoryLabel": "other/input_data",
+            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "label": "Documentation.md",
+          "restricted": false,
+          "directoryLabel": "other/scripts",
+          "version": 1,
+          "datasetVersionId": 135,
+          "categories": [
+            "Documentation"
+          ],
+          "dataFile": {
+            "id": 903,
+            "persistentId": "",
+            "filename": "Documentation.md",
+            "contentType": "text/markdown",
+            "friendlyType": "Markdown Text",
+            "filesize": 7247,
+            "categories": [
+              "Documentation"
+            ],
+            "storageIdentifier": "s3_direct_storage://dataverse:197d07d6380-a48b0b0e8543",
+            "rootDataFileId": -1,
+            "md5": "7db53f8c5d214cb00a795fcf03d91df6",
+            "checksum": {
+              "type": "MD5",
+              "value": "7db53f8c5d214cb00a795fcf03d91df6"
+            },
+            "tabularData": false,
+            "creationDate": "2025-07-03",
+            "publicationDate": "2025-07-22",
+            "directoryLabel": "other/scripts",
+            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "description": "",
+          "label": "Figure_1_Urban_green_Infrastructure_Syrbe_KLu-04.png",
+          "restricted": false,
+          "directoryLabel": "other/maps",
+          "version": 1,
+          "datasetVersionId": 135,
+          "dataFile": {
+            "id": 853,
+            "persistentId": "",
+            "filename": "Figure_1_Urban_green_Infrastructure_Syrbe_KLu-04.png",
+            "contentType": "image/png",
+            "friendlyType": "PNG Image",
+            "filesize": 471283,
+            "description": "",
+            "storageIdentifier": "s3_direct_storage://dataverse:19779fb5cc3-ee3c3d004317",
+            "rootDataFileId": -1,
+            "md5": "b447bda8cbc581f55885643ce3319ecb",
+            "checksum": {
+              "type": "MD5",
+              "value": "b447bda8cbc581f55885643ce3319ecb"
+            },
+            "tabularData": false,
+            "creationDate": "2025-06-16",
+            "publicationDate": "2025-07-22",
+            "directoryLabel": "other/maps",
+            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "description": "",
+          "label": "Map_1_Climate_regulation_Air_Photo.jpg",
+          "restricted": false,
+          "directoryLabel": "other/maps",
+          "version": 1,
+          "datasetVersionId": 135,
+          "dataFile": {
+            "id": 855,
+            "persistentId": "",
+            "filename": "Map_1_Climate_regulation_Air_Photo.jpg",
+            "contentType": "image/jpeg",
+            "friendlyType": "JPEG Image",
+            "filesize": 973971,
+            "description": "",
+            "storageIdentifier": "s3_direct_storage://dataverse:19779fb74a8-6c73731a44e0",
+            "rootDataFileId": -1,
+            "md5": "e18d722f20bf0520c54a9a90856d42be",
+            "checksum": {
+              "type": "MD5",
+              "value": "e18d722f20bf0520c54a9a90856d42be"
+            },
+            "tabularData": false,
+            "creationDate": "2025-06-16",
+            "publicationDate": "2025-07-22",
+            "directoryLabel": "other/maps",
+            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "description": "",
+          "label": "Map_2_Climate_regulation_Tree_Cover.jpg",
+          "restricted": false,
+          "directoryLabel": "other/maps",
+          "version": 1,
+          "datasetVersionId": 135,
+          "dataFile": {
+            "id": 866,
+            "persistentId": "",
+            "filename": "Map_2_Climate_regulation_Tree_Cover.jpg",
+            "contentType": "image/jpeg",
+            "friendlyType": "JPEG Image",
+            "filesize": 1071537,
+            "description": "",
+            "storageIdentifier": "s3_direct_storage://dataverse:19779fb7500-7915794e0392",
+            "rootDataFileId": -1,
+            "md5": "20e2954765b65a39656df6e92f30e492",
+            "checksum": {
+              "type": "MD5",
+              "value": "20e2954765b65a39656df6e92f30e492"
+            },
+            "tabularData": false,
+            "creationDate": "2025-06-16",
+            "publicationDate": "2025-07-22",
+            "directoryLabel": "other/maps",
+            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "description": "",
+          "label": "Map_3_Climate_regulation_Population.jpg",
+          "restricted": false,
+          "directoryLabel": "other/maps",
+          "version": 1,
+          "datasetVersionId": 135,
+          "dataFile": {
+            "id": 865,
+            "persistentId": "",
+            "filename": "Map_3_Climate_regulation_Population.jpg",
+            "contentType": "image/jpeg",
+            "friendlyType": "JPEG Image",
+            "filesize": 790493,
+            "description": "",
+            "storageIdentifier": "s3_direct_storage://dataverse:19779fb7516-74f8169acb18",
+            "rootDataFileId": -1,
+            "md5": "64d5995c8efd5ade825cb590a6d56be5",
+            "checksum": {
+              "type": "MD5",
+              "value": "64d5995c8efd5ade825cb590a6d56be5"
+            },
+            "tabularData": false,
+            "creationDate": "2025-06-16",
+            "publicationDate": "2025-07-22",
+            "directoryLabel": "other/maps",
+            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "description": "",
+          "label": "Map_4_Climate_regulation_Cooling_Capacity.jpg",
+          "restricted": false,
+          "directoryLabel": "other/maps",
+          "version": 1,
+          "datasetVersionId": 135,
+          "dataFile": {
+            "id": 851,
+            "persistentId": "",
+            "filename": "Map_4_Climate_regulation_Cooling_Capacity.jpg",
+            "contentType": "image/jpeg",
+            "friendlyType": "JPEG Image",
+            "filesize": 1145944,
+            "description": "",
+            "storageIdentifier": "s3_direct_storage://dataverse:19779fb85af-f3c1248af526",
+            "rootDataFileId": -1,
+            "md5": "6c7c85aba17a24324021b274c9773187",
+            "checksum": {
+              "type": "MD5",
+              "value": "6c7c85aba17a24324021b274c9773187"
+            },
+            "tabularData": false,
+            "creationDate": "2025-06-16",
+            "publicationDate": "2025-07-22",
+            "directoryLabel": "other/maps",
+            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "description": "",
+          "label": "Map_5_Cities_cooling_capacity.jpg",
+          "restricted": false,
+          "directoryLabel": "other/maps",
+          "version": 1,
+          "datasetVersionId": 135,
+          "dataFile": {
+            "id": 864,
+            "persistentId": "",
+            "filename": "Map_5_Cities_cooling_capacity.jpg",
+            "contentType": "image/jpeg",
+            "friendlyType": "JPEG Image",
+            "filesize": 1697718,
+            "description": "",
+            "storageIdentifier": "s3_direct_storage://dataverse:19779fb8603-084ce45fa518",
+            "rootDataFileId": -1,
+            "md5": "874ae21fcb05c3cc668e0451dbb2e612",
+            "checksum": {
+              "type": "MD5",
+              "value": "874ae21fcb05c3cc668e0451dbb2e612"
+            },
+            "tabularData": false,
+            "creationDate": "2025-06-16",
+            "publicationDate": "2025-07-22",
+            "directoryLabel": "other/maps",
+            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "description": "",
+          "label": "Map_6_Cities_inhabitants_cooling_capacity.jpg",
+          "restricted": false,
+          "directoryLabel": "other/maps",
+          "version": 1,
+          "datasetVersionId": 135,
+          "dataFile": {
+            "id": 858,
+            "persistentId": "",
+            "filename": "Map_6_Cities_inhabitants_cooling_capacity.jpg",
+            "contentType": "image/jpeg",
+            "friendlyType": "JPEG Image",
+            "filesize": 1814763,
+            "description": "",
+            "storageIdentifier": "s3_direct_storage://dataverse:19779fb978b-58edfb1b4b28",
+            "rootDataFileId": -1,
+            "md5": "698c8c58c1a836a2237b687ce691bf78",
+            "checksum": {
+              "type": "MD5",
+              "value": "698c8c58c1a836a2237b687ce691bf78"
+            },
+            "tabularData": false,
+            "creationDate": "2025-06-16",
+            "publicationDate": "2025-07-22",
+            "directoryLabel": "other/maps",
+            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "label": "README.md",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 135,
+          "categories": [
+            "Readme"
+          ],
+          "dataFile": {
+            "id": 922,
+            "persistentId": "",
+            "filename": "README.md",
+            "contentType": "text/markdown",
+            "friendlyType": "Markdown Text",
+            "filesize": 6337,
+            "categories": [
+              "Readme"
+            ],
+            "storageIdentifier": "s3_direct_storage://dataverse:19831d9f264-709f2e4aaf4d",
+            "rootDataFileId": -1,
+            "md5": "c2fffdb47b807184bc1c71bd1a9e4d36",
+            "checksum": {
+              "type": "MD5",
+              "value": "c2fffdb47b807184bc1c71bd1a9e4d36"
+            },
+            "tabularData": false,
+            "creationDate": "2025-07-22",
+            "publicationDate": "2025-07-22",
+            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "label": "Stadtklima_Skript.py",
+          "restricted": false,
+          "directoryLabel": "other/scripts",
+          "version": 1,
+          "datasetVersionId": 135,
+          "categories": [
+            "Code"
+          ],
+          "dataFile": {
+            "id": 852,
+            "persistentId": "",
+            "filename": "Stadtklima_Skript.py",
+            "contentType": "text/plain",
+            "friendlyType": "Plain Text",
+            "filesize": 55580,
+            "categories": [
+              "Code"
+            ],
+            "storageIdentifier": "s3_direct_storage://dataverse:19779fc3766-e61b0f15b0b3",
+            "rootDataFileId": -1,
+            "md5": "2a1bc4f8eeb1ddca44a1fb6926e3577b",
+            "checksum": {
+              "type": "MD5",
+              "value": "2a1bc4f8eeb1ddca44a1fb6926e3577b"
+            },
+            "tabularData": false,
+            "creationDate": "2025-06-16",
+            "publicationDate": "2025-07-22",
+            "directoryLabel": "other/scripts",
+            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "description": "The final GeoPackage (climate_regulation_in_cities.gpkg) contains spatial data representing the indicator for local climate regulation by green infrastructure in German cities with more than 50,000 inhabitants including polygon features for each city.",
+          "label": "climate_regulation_in_cities.gpkg",
+          "restricted": true,
+          "directoryLabel": "data",
+          "version": 1,
+          "datasetVersionId": 135,
+          "categories": [
+            "Data"
+          ],
+          "dataFile": {
+            "id": 901,
+            "persistentId": "",
+            "filename": "climate_regulation_in_cities.gpkg",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 6545408,
+            "description": "The final GeoPackage (climate_regulation_in_cities.gpkg) contains spatial data representing the indicator for local climate regulation by green infrastructure in German cities with more than 50,000 inhabitants including polygon features for each city.",
+            "categories": [
+              "Data"
+            ],
+            "storageIdentifier": "s3_direct_storage://dataverse:197d0716e62-e87b18c7d0b8",
+            "rootDataFileId": -1,
+            "md5": "175ad822dc7778eb8cdbc1ed436d3599",
+            "checksum": {
+              "type": "MD5",
+              "value": "175ad822dc7778eb8cdbc1ed436d3599"
+            },
+            "tabularData": false,
+            "creationDate": "2025-07-03",
+            "publicationDate": "2025-07-22",
+            "directoryLabel": "data",
+            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "fileAccessRequest": true
+          }
+        }
+      ]
+    }
+  }
+}

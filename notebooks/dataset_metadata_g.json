@@ -1,0 +1,835 @@
+{
+  "status": "OK",
+  "data": {
+    "id": 6954,
+    "identifier": "CDAXYF",
+    "persistentUrl": "https://doi.org/10.71830/CDAXYF",
+    "protocol": "doi",
+    "authority": "10.71830",
+    "separator": "/",
+    "publisher": "ioerDATA",
+    "publicationDate": "2026-01-05",
+    "storageIdentifier": "s3_direct_storage://10.71830/CDAXYF",
+    "datasetType": "dataset",
+    "latestVersion": {
+      "id": 142,
+      "datasetId": 6954,
+      "datasetPersistentId": "doi:10.71830/CDAXYF",
+      "datasetType": "dataset",
+      "storageIdentifier": "s3_direct_storage://10.71830/CDAXYF",
+      "versionNumber": 1,
+      "internalVersionNumber": 7,
+      "versionMinorNumber": 1,
+      "versionState": "RELEASED",
+      "latestVersionPublishingState": "RELEASED",
+      "productionDate": "2025-11-11",
+      "lastUpdateTime": "2026-01-30T14:48:26Z",
+      "releaseTime": "2026-01-30T14:48:26Z",
+      "createTime": "2026-01-30T14:47:28Z",
+      "publicationDate": "2026-01-05",
+      "citationDate": "2026-01-05",
+      "license": {
+        "name": "CC BY 4.0",
+        "uri": "http://creativecommons.org/licenses/by/4.0",
+        "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+      },
+      "termsOfAccess": "You need to login ioerData.",
+      "fileAccessRequest": true,
+      "metadataBlocks": {
+        "citation": {
+          "displayName": "Citation Metadata",
+          "name": "citation",
+          "fields": [
+            {
+              "typeName": "title",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Replication package for: Localized assessment of urban forest structures with 3D indicators"
+            },
+            {
+              "typeName": "author",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Münzinger, Markus"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Leibniz Institute of Ecological Urban and Regional Development"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "0000-0002-4377-2815"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Burghardt, Dirk"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Institute of Cartography, TU Dresden, Dresden, Germany"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "0000-0003-2949-4887"
+                  }
+                },
+                {
+                  "authorName": {
+                    "typeName": "authorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Behnisch, Martin"
+                  },
+                  "authorAffiliation": {
+                    "typeName": "authorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Leibniz Institute of Ecological Urban and Regional Development"
+                  },
+                  "authorIdentifierScheme": {
+                    "typeName": "authorIdentifierScheme",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "ORCID"
+                  },
+                  "authorIdentifier": {
+                    "typeName": "authorIdentifier",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "0000-0003-4590-6757"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "datasetContact",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "datasetContactName": {
+                    "typeName": "datasetContactName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Münzinger, Markus"
+                  },
+                  "datasetContactAffiliation": {
+                    "typeName": "datasetContactAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Leibniz Institute of Ecological Urban and Regional Development"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "dsDescription",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "dsDescriptionValue": {
+                    "typeName": "dsDescriptionValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "EN: \n<p>\n  The dataset includes all data and source code required to reproduce the analysis presented in the study \n  <em>Localized Assessment of Urban Forest Structures with 3D Indicators</em>, published in \n  <em>Ecological Indicators</em> (2026).\n</p>\n<p>\n  Pre-processed GeoPackages (.gpkg) for Amsterdam and Berlin contain canopy-height and building-height values \n  on a 100 m grid. These values were derived from publicly available canopy-height and building-height datasets. \n  The supplied grid cells are classified according to the Local Climate Zone (LCZ) scheme, allowing direct integration \n  into the analysis workflow.\n</p>\n<p>\n  An interactive Jupyter Notebook guides users through the complete analysis, \n  following the structure of the manuscript. A dynamic map viewer provides zoom, pan, and layer-overlay controls for \n  interactive exploration of the results.\n</p>\n<p>\n  A static, read-only HTML report presents all figures, tables, and map screenshots without \n  requiring code execution.\n</p>\n<p>Click the link below to launch this repository in an executable Binder environment in your browser:</p>\n<p><a href=\"https://mybinder.org/v2/gh/markusmnzngr/urban-forest-structure-3d-indicators-replication/HEAD?urlpath=%2Fdoc%2Ftree%2F%2Fnotebooks%2Flocalized_assessment_of_urban_forest_structures_with_3d_indicators_replication_workflow.ipynb\" target=\"_blank\">\n  <img src=\"https://mybinder.org/badge_logo.svg\" alt=\"Binder\" />\n</a></p>\n<p><em>Please note that building the Binder environment may take some time.</em></p>"
+                  }
+                },
+                {
+                  "dsDescriptionValue": {
+                    "typeName": "dsDescriptionValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "DE: \n<p>\n  Der Datensatz enthält alle Daten und den Quellcode, die erforderlich sind, um die in der Studie \n  <em>Localized Assessment of Urban Forest Structures with 3D Indicators</em> dargestellte Analyse \n  zu reproduzieren, veröffentlicht in \n  <em>Ecological Indicators</em> (2026).\n</p>\n<p>\n  Vorverarbeitete GeoPackages (.gpkg) für Amsterdam und Berlin enthalten Werte der Baumhöhe \n  und Gebäudehöhe auf einem 100 m-Raster. Diese Werte wurden aus öffentlich verfügbaren Datensätzen \n  zu Kronenhöhen und Gebäudehöhen abgeleitet. Die bereitgestellten Rasterzellen sind gemäß dem \n  Local-Climate-Zone-(LCZ)-Schema klassifiziert und können direkt in den Analyse-Workflow integriert werden.\n</p>\n<p>\n  Ein interaktives Jupyter-Notebook führt die Benutzerinnen und Benutzer durch die vollständige Analyse \n  und folgt dabei der Struktur des Manuskripts. Ein dynamischer Karten-Viewer bietet Steuerungen zum Zoomen, \n  Verschieben und Überlagern von Ebenen für eine interaktive Erkundung der Ergebnisse.\n</p>\n<p>\n  Ein statischer, schreibgeschützter HTML-Bericht zeigt alle Abbildungen, Tabellen und Kartenausschnitte an, \n  ohne dass eine Codeausführung erforderlich ist.\n</p>\n<p>Klicken Sie auf den nachfolgenden Link, um dieses Repository in einer ausführbaren Binder-Umgebung in Ihrem Browser zu öffnen:</p>\n<p><a href=\"https://mybinder.org/v2/gh/markusmnzngr/urban-forest-structure-3d-indicators-replication/HEAD?urlpath=%2Fdoc%2Ftree%2F%2Fnotebooks%2Flocalized_assessment_of_urban_forest_structures_with_3d_indicators_replication_workflow.ipynb\" target=\"_blank\">\n  <img src=\"https://mybinder.org/badge_logo.svg\" alt=\"Binder\" />\n</a></p>\n<p><em>Bitte beachten Sie, dass das Erstellen der Binder-Umgebung einige Zeit in Anspruch nehmen kann.</em></p>"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "subject",
+              "multiple": true,
+              "typeClass": "controlledVocabulary",
+              "value": [
+                "Earth and Environmental Sciences"
+              ]
+            },
+            {
+              "typeName": "keyword",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "urban ecosystems"
+                  },
+                  "keywordVocabulary": {
+                    "typeName": "keywordVocabulary",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "SWEET:ecosystem service"
+                  },
+                  "keywordVocabularyURI": {
+                    "typeName": "keywordVocabularyURI",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "http://sweetontology.net/phenEcology/EcosystemService"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "urban morphology"
+                  },
+                  "keywordVocabulary": {
+                    "typeName": "keywordVocabulary",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "SWEET:morphology"
+                  },
+                  "keywordVocabularyURI": {
+                    "typeName": "keywordVocabularyURI",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "http://sweetontology.net/propSpace/Morphology"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "3D vegetation structure"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "spatially explicit indicators"
+                  },
+                  "keywordVocabulary": {
+                    "typeName": "keywordVocabulary",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "SWEET:indicator"
+                  },
+                  "keywordVocabularyURI": {
+                    "typeName": "keywordVocabularyURI",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "http://sweetontology.net/stateRoleRepresentative/Indicator"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "canopy height model"
+                  },
+                  "keywordVocabulary": {
+                    "typeName": "keywordVocabulary",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "SWEET:canopy"
+                  },
+                  "keywordVocabularyURI": {
+                    "typeName": "keywordVocabularyURI",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "http://sweetontology.net/matrPlant/Canopy"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "building height"
+                  },
+                  "keywordVocabulary": {
+                    "typeName": "keywordVocabulary",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "SWEET:building"
+                  },
+                  "keywordVocabularyURI": {
+                    "typeName": "keywordVocabularyURI",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "http://sweetontology.net/matrFacility/Building"
+                  }
+                },
+                {
+                  "keywordValue": {
+                    "typeName": "keywordValue",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "local climate zones"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "productionDate",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "2025-11-11"
+            },
+            {
+              "typeName": "contributor",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "contributorType": {
+                    "typeName": "contributorType",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "Data Curator"
+                  },
+                  "contributorName": {
+                    "typeName": "contributorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Tang, Gongmingyue"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "distributor",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "distributorName": {
+                    "typeName": "distributorName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "IOER Research Data Centre"
+                  },
+                  "distributorAffiliation": {
+                    "typeName": "distributorAffiliation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Leibniz Institute of Ecological Urban and Regional Development"
+                  },
+                  "distributorAbbreviation": {
+                    "typeName": "distributorAbbreviation",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "IOER FDZ"
+                  },
+                  "distributorURL": {
+                    "typeName": "distributorURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://ioer-fdz.de/"
+                  },
+                  "distributorLogoURL": {
+                    "typeName": "distributorLogoURL",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "https://ioer-fdz.de/fileadmin/user_upload/logos/FDZ-Logo_EN_farbig_ohneSchutzzone.svg"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "depositor",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Münzinger, Markus"
+            },
+            {
+              "typeName": "dateOfDeposit",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "2025-11-04"
+            },
+            {
+              "typeName": "software",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "softwareName": {
+                    "typeName": "softwareName",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "R"
+                  },
+                  "softwareVersion": {
+                    "typeName": "softwareVersion",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "4.4.0"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "relatedMaterial",
+              "multiple": true,
+              "typeClass": "primitive",
+              "value": [
+                "Binder-ready environment: https://github.com/markusmnzngr/urban-forest-structure-3d-indicators-replication.git"
+              ]
+            },
+            {
+              "typeName": "relatedDatasets",
+              "multiple": true,
+              "typeClass": "primitive",
+              "value": [
+                "3D geoinformation research group (TU Delft) and 3DGI, 2023. 3DBAG. https://docs.3dbag.nl",
+                "Demuzere, M., Kittner, J., Martilli, A., Mills, G., Moede, C., Stewart, I.D., Vliet, J. van, Bechtel, B., 2023. Global map of Local Climate Zones [dataset]. Zenodo, v3. https://doi.org/10.5281/zenodo.8419340",
+                "GDI Berlin, 2024. 3D-Gebäudemodelle im Level of Detail 2 (LoD 2). https://gdi.berlin.de/geonetwork/srv/ger/catalog.search#/metadata/3c7c49af-00a4-3bcd-bc00-20e7f0f1b7bf",
+                "Münzinger, Markus, 2025, \"LiDAR-Based Tree Models for Amsterdam, the Netherlands (2020)\", https://doi.org/10.71830/OD3BUX, ioerDATA, V1",
+                "Münzinger, Markus, 2025, \"LiDAR-Based Tree Models for Berlin, Germany (2021)\", https://doi.org/10.71830/I8EAYH, ioerDATA, V1"
+              ]
+            }
+          ]
+        },
+        "geospatial": {
+          "displayName": "Geospatial Metadata",
+          "name": "geospatial",
+          "fields": [
+            {
+              "typeName": "geographicCoverage",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "country": {
+                    "typeName": "country",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "Netherlands"
+                  },
+                  "state": {
+                    "typeName": "state",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "North Holland"
+                  },
+                  "city": {
+                    "typeName": "city",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Amsterdam"
+                  }
+                },
+                {
+                  "country": {
+                    "typeName": "country",
+                    "multiple": false,
+                    "typeClass": "controlledVocabulary",
+                    "value": "Germany"
+                  },
+                  "state": {
+                    "typeName": "state",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Berlin"
+                  },
+                  "city": {
+                    "typeName": "city",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "Berlin"
+                  }
+                }
+              ]
+            },
+            {
+              "typeName": "geographicUnit",
+              "multiple": true,
+              "typeClass": "primitive",
+              "value": [
+                "City"
+              ]
+            },
+            {
+              "typeName": "geographicBoundingBox",
+              "multiple": true,
+              "typeClass": "compound",
+              "value": [
+                {
+                  "westLongitude": {
+                    "typeName": "westLongitude",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "4.729531"
+                  },
+                  "eastLongitude": {
+                    "typeName": "eastLongitude",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "5.079161"
+                  },
+                  "northLatitude": {
+                    "typeName": "northLatitude",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "52.431221"
+                  },
+                  "southLatitude": {
+                    "typeName": "southLatitude",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "52.278317"
+                  }
+                },
+                {
+                  "westLongitude": {
+                    "typeName": "westLongitude",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "13.088333"
+                  },
+                  "eastLongitude": {
+                    "typeName": "eastLongitude",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "13.760469"
+                  },
+                  "northLatitude": {
+                    "typeName": "northLatitude",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "52.675379"
+                  },
+                  "southLatitude": {
+                    "typeName": "southLatitude",
+                    "multiple": false,
+                    "typeClass": "primitive",
+                    "value": "52.338242"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "computationalworkflow": {
+          "displayName": "Computational Workflow Metadata",
+          "name": "computationalworkflow",
+          "fields": [
+            {
+              "typeName": "workflowType",
+              "multiple": true,
+              "typeClass": "controlledVocabulary",
+              "value": [
+                "R Notebook"
+              ]
+            }
+          ]
+        }
+      },
+      "files": [
+        {
+          "label": "README.md",
+          "restricted": false,
+          "version": 1,
+          "datasetVersionId": 142,
+          "dataFile": {
+            "id": 7027,
+            "persistentId": "",
+            "filename": "README.md",
+            "contentType": "text/markdown",
+            "friendlyType": "Markdown Text",
+            "filesize": 11959,
+            "storageIdentifier": "s3_direct_storage://dataverse:19b8dc4f392-06934957b865",
+            "rootDataFileId": 7027,
+            "md5": "6346f26c3251c4a7ce344c3e96878efa",
+            "checksum": {
+              "type": "MD5",
+              "value": "6346f26c3251c4a7ce344c3e96878efa"
+            },
+            "tabularData": false,
+            "creationDate": "2026-01-05",
+            "publicationDate": "2026-01-05",
+            "lastUpdateTime": "2026-01-30T14:48:26Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "description": "",
+          "label": "amsterdam_3D_canopy_stats_lczv3_grid100m_lau2021_epsg28992.gpkg",
+          "restricted": true,
+          "directoryLabel": "data/3D_canopy_stats_lczv3_grid100m",
+          "version": 1,
+          "datasetVersionId": 142,
+          "dataFile": {
+            "id": 7002,
+            "persistentId": "",
+            "filename": "amsterdam_3D_canopy_stats_lczv3_grid100m_lau2021_epsg28992.gpkg",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 6025216,
+            "description": "",
+            "storageIdentifier": "s3_direct_storage://dataverse:19ac03598f5-001e4c5a2393",
+            "rootDataFileId": -1,
+            "md5": "e782c8f1d5e355fa45086a5548e65fee",
+            "checksum": {
+              "type": "MD5",
+              "value": "e782c8f1d5e355fa45086a5548e65fee"
+            },
+            "tabularData": false,
+            "creationDate": "2025-11-26",
+            "publicationDate": "2026-01-05",
+            "directoryLabel": "data/3D_canopy_stats_lczv3_grid100m",
+            "lastUpdateTime": "2026-01-30T14:48:26Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "description": "",
+          "label": "amsterdam_gwr_canopy_indicators_adaptive_bandwidth_12_bisquare_kernel.rds",
+          "restricted": true,
+          "directoryLabel": "data/app_a2_gwr_results",
+          "version": 2,
+          "datasetVersionId": 142,
+          "dataFile": {
+            "id": 7007,
+            "persistentId": "",
+            "filename": "amsterdam_gwr_canopy_indicators_adaptive_bandwidth_12_bisquare_kernel.rds",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 2447010,
+            "description": "",
+            "storageIdentifier": "s3_direct_storage://dataverse:19ac03598bb-06024920d027",
+            "rootDataFileId": -1,
+            "md5": "c432f0e01ab2c1a3569883afa11f119c",
+            "checksum": {
+              "type": "MD5",
+              "value": "c432f0e01ab2c1a3569883afa11f119c"
+            },
+            "tabularData": false,
+            "creationDate": "2025-11-26",
+            "publicationDate": "2026-01-05",
+            "directoryLabel": "data/app_a2_gwr_results",
+            "lastUpdateTime": "2026-01-30T14:48:26Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "description": "",
+          "label": "berlin_3D_canopy_stats_lczv3_grid100m_urau2021_epsg25833.gpkg",
+          "restricted": true,
+          "directoryLabel": "data/3D_canopy_stats_lczv3_grid100m",
+          "version": 2,
+          "datasetVersionId": 142,
+          "dataFile": {
+            "id": 7004,
+            "persistentId": "",
+            "filename": "berlin_3D_canopy_stats_lczv3_grid100m_urau2021_epsg25833.gpkg",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 25026560,
+            "description": "",
+            "storageIdentifier": "s3_direct_storage://dataverse:19ac0359a7a-e0ec50949fa9",
+            "rootDataFileId": -1,
+            "md5": "f538b9f12ee3a9618a42f4bcd0ddb317",
+            "checksum": {
+              "type": "MD5",
+              "value": "f538b9f12ee3a9618a42f4bcd0ddb317"
+            },
+            "tabularData": false,
+            "creationDate": "2025-11-26",
+            "publicationDate": "2026-01-05",
+            "directoryLabel": "data/3D_canopy_stats_lczv3_grid100m",
+            "lastUpdateTime": "2026-01-30T14:48:26Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "description": "",
+          "label": "berlin_gwr_canopy_indicators_adaptive_bandwidth_12_bisquare_kernel.rds",
+          "restricted": true,
+          "directoryLabel": "data/app_a2_gwr_results",
+          "version": 2,
+          "datasetVersionId": 142,
+          "dataFile": {
+            "id": 7008,
+            "persistentId": "",
+            "filename": "berlin_gwr_canopy_indicators_adaptive_bandwidth_12_bisquare_kernel.rds",
+            "contentType": "application/octet-stream",
+            "friendlyType": "Unknown",
+            "filesize": 13396251,
+            "description": "",
+            "storageIdentifier": "s3_direct_storage://dataverse:19ac0359972-f74868ca3842",
+            "rootDataFileId": -1,
+            "md5": "e24b2beb8da6e33edc150587f247d18d",
+            "checksum": {
+              "type": "MD5",
+              "value": "e24b2beb8da6e33edc150587f247d18d"
+            },
+            "tabularData": false,
+            "creationDate": "2025-11-26",
+            "publicationDate": "2026-01-05",
+            "directoryLabel": "data/app_a2_gwr_results",
+            "lastUpdateTime": "2026-01-30T14:48:26Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "description": "",
+          "label": "lcz_2018_classcodes.csv",
+          "restricted": false,
+          "directoryLabel": "data/global_lcz_v3_classcodes",
+          "version": 1,
+          "datasetVersionId": 142,
+          "dataFile": {
+            "id": 7003,
+            "persistentId": "",
+            "filename": "lcz_2018_classcodes.csv",
+            "contentType": "text/comma-separated-values",
+            "friendlyType": "Comma Separated Values",
+            "filesize": 528,
+            "description": "",
+            "storageIdentifier": "s3_direct_storage://dataverse:19ac0359af8-612ab8617160",
+            "rootDataFileId": -1,
+            "md5": "f8bd7ffa3f5aa3e93f742f44e8d04846",
+            "checksum": {
+              "type": "MD5",
+              "value": "f8bd7ffa3f5aa3e93f742f44e8d04846"
+            },
+            "tabularData": false,
+            "creationDate": "2025-11-26",
+            "publicationDate": "2026-01-05",
+            "directoryLabel": "data/global_lcz_v3_classcodes",
+            "lastUpdateTime": "2026-01-30T14:48:26Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "description": "",
+          "label": "localized_assessment_of_urban_forest_structures_with_3d_indicators_replication_static.html",
+          "restricted": false,
+          "directoryLabel": "code",
+          "version": 1,
+          "datasetVersionId": 142,
+          "dataFile": {
+            "id": 7005,
+            "persistentId": "",
+            "filename": "localized_assessment_of_urban_forest_structures_with_3d_indicators_replication_static.html",
+            "contentType": "text/html",
+            "friendlyType": "HTML",
+            "filesize": 13596982,
+            "description": "",
+            "storageIdentifier": "s3_direct_storage://dataverse:19ac035981a-ab0be0d6b678",
+            "rootDataFileId": -1,
+            "md5": "e4a736d0370277ad947314781ea41c98",
+            "checksum": {
+              "type": "MD5",
+              "value": "e4a736d0370277ad947314781ea41c98"
+            },
+            "tabularData": false,
+            "creationDate": "2025-11-26",
+            "publicationDate": "2026-01-05",
+            "directoryLabel": "code",
+            "lastUpdateTime": "2026-01-30T14:48:26Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "description": "",
+          "label": "localized_assessment_of_urban_forest_structures_with_3d_indicators_replication_workflow.ipynb",
+          "restricted": false,
+          "directoryLabel": "code",
+          "version": 1,
+          "datasetVersionId": 142,
+          "dataFile": {
+            "id": 7006,
+            "persistentId": "",
+            "filename": "localized_assessment_of_urban_forest_structures_with_3d_indicators_replication_workflow.ipynb",
+            "contentType": "application/x-ipynb+json",
+            "friendlyType": "Jupyter Notebook",
+            "filesize": 99742,
+            "description": "",
+            "storageIdentifier": "s3_direct_storage://dataverse:19ac0359886-a25b281d3c38",
+            "rootDataFileId": -1,
+            "md5": "f01b49df683ac3c3427973a340d57d58",
+            "checksum": {
+              "type": "MD5",
+              "value": "f01b49df683ac3c3427973a340d57d58"
+            },
+            "tabularData": false,
+            "creationDate": "2025-11-26",
+            "publicationDate": "2026-01-05",
+            "directoryLabel": "code",
+            "lastUpdateTime": "2026-01-30T14:48:26Z",
+            "fileAccessRequest": true
+          }
+        },
+        {
+          "description": "",
+          "label": "urban_forest_3d_indicators_graphical_abstract.png",
+          "restricted": false,
+          "directoryLabel": "other",
+          "version": 1,
+          "datasetVersionId": 142,
+          "dataFile": {
+            "id": 7001,
+            "persistentId": "",
+            "filename": "urban_forest_3d_indicators_graphical_abstract.png",
+            "contentType": "image/png",
+            "friendlyType": "PNG Image",
+            "filesize": 202373,
+            "description": "",
+            "storageIdentifier": "s3_direct_storage://dataverse:19ac0359b26-80b9d8b3eade",
+            "rootDataFileId": -1,
+            "md5": "01a360880370ce9510214be3938d551d",
+            "checksum": {
+              "type": "MD5",
+              "value": "01a360880370ce9510214be3938d551d"
+            },
+            "tabularData": false,
+            "creationDate": "2025-11-26",
+            "publicationDate": "2026-01-05",
+            "directoryLabel": "other",
+            "lastUpdateTime": "2026-01-30T14:48:26Z",
+            "fileAccessRequest": true
+          }
+        }
+      ]
+    }
+  }
+}
