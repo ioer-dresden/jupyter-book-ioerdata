@@ -7,7 +7,7 @@ This is the public repository for the Jupyter book, available at https://ioerdat
 ## TL;DR
 
 The workflow is as follows:
-1. Edit notebooks (`*.ipynb` files) in `notebooks/`
+1. Edit notebooks (`*.ipynb` files) in `notebooks/`.
 2. Commit changes, optionally on a separate branch/fork and create a Pull Request
 3. Notebooks are converted to Markdown and then to Jupyter-book
 4. The jupyter book is published (deployed) under https://stag.training.fdz.ioer.info/ (git staging branch) and  https://training.fdz.ioer.info/ (git main branch)

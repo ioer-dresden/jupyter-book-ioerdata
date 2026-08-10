@@ -1,23 +1,35 @@
 format: jb-book
-root: intro
+root: 00_intro
 parts:
 - caption: Preface
   chapters:
-  - file: notebooks/00_toc
+  - file: intro.ipynb
+
+- caption: Front matter
+  chapters: 
+  - file: notebooks/001_authors.ipynb
+  - file: notebooks/002_license.ipynb
+  - file: notebooks/003_disclaimer.ipynb
+
+- caption: Getting started
+  chapters: 
+  - file: notebooks/004_data_repository.ipynb
+  - file: notebooks/005_setup.ipynb
+
 
 - caption: Part I - Introduction 
   chapters:
-  - file: notebooks/101_about_ioer_research_data_center
-  - file: notebooks/102_jupyter_notebooks
+  - file: notebooks/001_about_ioer_research_data_center
+  - file: notebooks/002_jupyter_notebooks
 
 - caption: Part II - ioerDATA via Dataverse API 
   chapters:
-  - file: notebooks/ioerdata_api/00_data_access
-  - file: notebooks/ioerdata_api/01_download_from_dataverse
-  - file: notebooks/ioerdata_api/02_explanation
-  - file: notebooks/ioerdata_api/03_basic_visualization
-  - file: notebooks/ioerdata_api/04_advanced_visualization
-  - file: notebooks/ioerdata_api/documentation
+  - file: notebooks/101_data_access
+  - file: notebooks/102_download_from_dataverse
+  - file: notebooks/103_explanation
+  - file: notebooks/104_basic_visualization
+  - file: notebooks/105_advanced_visualization
+  - file: notebooks/documentation
   
 - caption: Further Reading 
   chapters:
@@ -28,12 +40,12 @@ parts:
 
 - caption: Urban Data Investigator 🕵️
   chapters:
-  - file: notebooks/ioerdata_api/30_find_the_dataset
-  - file: notebooks/ioerdata_api/31_inspect_the_dataset
-  - file: notebooks/ioerdata_api/32_understand_the_contents
-  - file: notebooks/ioerdata_api/33_produce_first_insights
-  - file: notebooks/ioerdata_api/34_create_visual_evidence
-  - file: notebooks/ioerdata_api/35_go_beyond
+  - file: notebooks/301_mission1_content
+  - file: notebooks/302_mission2_unlock
+  - file: notebooks/304_mission3_unlock
+  - file: notebooks/304_produce_first_insights
+  - file: notebooks/305_create_visual_evidence
+  - file: notebooks/306_go_beyond
 
 - caption: Developers 
   chapters:
