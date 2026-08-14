@@ -50,9 +50,10 @@ parts:
   - file: notebooks/309_mission5_content
   - file: notebooks/310_mission6_unlock
   - file: notebooks/311_mission6_content
-  - file: notebooks/304_produce_first_insights
-  - file: notebooks/305_create_visual_evidence
-  - file: notebooks/306_go_beyond
+  - file: notebooks/312_mission7_unlock
+  - file: notebooks/313_mission7_content
+  - file: notebooks/314_mission8_unlock
+  - file: notebooks/315_mission8_content
 
 - caption: Developers 
   chapters:
