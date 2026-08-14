@@ -46,6 +46,8 @@ parts:
   - file: notebooks/305_mission3_content
   - file: notebooks/306_mission4_unlock
   - file: notebooks/307_mission4_content
+  - file: notebooks/308_mission5_unlock
+  - file: notebooks/309_mission5_content
   - file: notebooks/304_produce_first_insights
   - file: notebooks/305_create_visual_evidence
   - file: notebooks/306_go_beyond
