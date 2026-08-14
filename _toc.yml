@@ -42,18 +42,13 @@ parts:
   chapters:
   - file: notebooks/301_mission1_content
   - file: notebooks/302_mission2_unlock
-  - file: notebooks/304_mission3_unlock
-  
-  - file: notebooks/306_mission4_unlock
-  - file: notebooks/307_mission4_content
-  - file: notebooks/308_mission5_unlock
-  - file: notebooks/309_mission5_content
-  - file: notebooks/310_mission6_unlock
-  - file: notebooks/311_mission6_content
-  - file: notebooks/312_mission7_unlock
-  - file: notebooks/313_mission7_content
+  - file: notebooks/304_mission3_unlock  
+  - file: notebooks/306_mission4_unlock  
+  - file: notebooks/308_mission5_unlock  
+  - file: notebooks/310_mission6_unlock  
+  - file: notebooks/312_mission7_unlock  
   - file: notebooks/314_mission8_unlock
-  - file: notebooks/315_mission8_content
+  
 
 - caption: Developers 
   chapters:
