@@ -15,6 +15,7 @@ parts:
   chapters: 
   - file: notebooks/004_data_repository.ipynb
   - file: notebooks/005_setup.ipynb
+  - file: notebooks/006_how_to_work.ipynb
 
 
 - caption: Part I - Introduction 
