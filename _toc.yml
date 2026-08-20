@@ -17,13 +17,7 @@ parts:
   - file: notebooks/005_setup.ipynb
   - file: notebooks/006_how_to_work.ipynb
 
-
-- caption: Part I - Introduction 
-  chapters:
-  - file: notebooks/001_about_ioer_research_data_center
-  - file: notebooks/002_jupyter_notebooks
-
-- caption: Part II - ioerDATA via Dataverse API 
+- caption: Part I - ioerDATA via Dataverse API 
   chapters:
   - file: notebooks/101_data_access
   - file: notebooks/102_download_from_dataverse
