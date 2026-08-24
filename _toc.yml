@@ -1,9 +1,6 @@
 format: jb-book
 root: 00_intro
 parts:
-- caption: Preface
-  chapters:
-  - file: intro.ipynb
 
 - caption: Front matter
   chapters: 
@@ -26,12 +23,6 @@ parts:
   - file: notebooks/105_advanced_visualization
   - file: notebooks/documentation
   
-- caption: Further Reading 
-  chapters:
-  - file: BIBLIOGRAPHY
-    title: Bibliography
-  - file: notebooks/401_endmatter-thanks
-
 
 - caption: Urban Data Investigator 🕵️
   chapters:
@@ -51,3 +42,13 @@ parts:
     title: Contributing
   - file: CHANGELOG
     title: Changelog
+
+- caption: Preface
+  chapters:
+  - file: intro.ipynb
+
+- caption: Further Reading 
+  chapters:
+  - file: BIBLIOGRAPHY
+    title: Bibliography
+  - file: notebooks/401_endmatter-thanks
