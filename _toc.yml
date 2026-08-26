@@ -22,7 +22,7 @@ parts:
   - file: notebooks/103_explanation
   - file: notebooks/104_basic_visualization
   - file: notebooks/105_advanced_visualization
-  - file: notebooks/documentation
+
   
 
 - caption: Urban Data Investigator 🕵️
@@ -50,6 +50,7 @@ parts:
 
 - caption: Further Reading 
   chapters:
+  - file: notebooks/documentation
   - file: BIBLIOGRAPHY
     title: Bibliography
   - file: notebooks/401_endmatter-thanks
