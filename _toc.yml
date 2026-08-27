@@ -23,7 +23,6 @@ parts:
   - file: notebooks/104_basic_visualization
   - file: notebooks/105_advanced_visualization
 
-  
 
 - caption: Urban Data Investigator 🕵️
   chapters:
@@ -39,8 +38,7 @@ parts:
 
 - caption: Developers 
   chapters:
-  - file: CONTRIBUTING
-    title: Contributing
+  - file: notebooks/documentation
   - file: CHANGELOG
     title: Changelog
 
@@ -50,7 +48,8 @@ parts:
 
 - caption: Further Reading 
   chapters:
-  - file: notebooks/documentation
+  - file: CONTRIBUTING
+    title: Contributing
   - file: BIBLIOGRAPHY
     title: Bibliography
   - file: notebooks/401_endmatter-thanks
