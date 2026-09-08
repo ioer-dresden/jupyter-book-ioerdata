@@ -20,6 +20,7 @@ parts:
   - file: notebooks/101_data_access
   - file: notebooks/101_ioerData_registration.ipynb
   - file: notebooks/102_download_from_dataverse
+  - file: notebooks/102_ioerDATA_API.ipynb
   - file: notebooks/103_explanation
   - file: notebooks/104_basic_visualization
   - file: notebooks/105_advanced_visualization
