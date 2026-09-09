@@ -18,7 +18,6 @@ parts:
 - caption: Part I - ioerDATA via Dataverse API 
   chapters:
   - file: notebooks/101_data_access
-  - file: notebooks/101_ioerData_registration.ipynb
   - file: notebooks/102_download_from_dataverse
   - file: notebooks/102_ioerDATA_API.ipynb
   - file: notebooks/103_explanation
