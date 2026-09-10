@@ -1,9 +1,6 @@
 format: jb-book
 root: 00_intro
 parts:
-- caption: Preface
-  chapters:
-  - file: intro.ipynb
 
 - caption: Front matter
   chapters: 
@@ -12,30 +9,20 @@ parts:
   - file: notebooks/003_disclaimer.ipynb
 
 - caption: Getting started
+  numbered: 2
   chapters: 
   - file: notebooks/004_data_repository.ipynb
   - file: notebooks/005_setup.ipynb
+  - file: notebooks/006_how_to_work.ipynb
 
-
-- caption: Part I - Introduction 
-  chapters:
-  - file: notebooks/001_about_ioer_research_data_center
-  - file: notebooks/002_jupyter_notebooks
-
-- caption: Part II - ioerDATA via Dataverse API 
+- caption: Part I - ioerDATA via Dataverse API 
   chapters:
   - file: notebooks/101_data_access
   - file: notebooks/102_download_from_dataverse
+  - file: notebooks/102_ioerDATA_API.ipynb
   - file: notebooks/103_explanation
   - file: notebooks/104_basic_visualization
   - file: notebooks/105_advanced_visualization
-  - file: notebooks/documentation
-  
-- caption: Further Reading 
-  chapters:
-  - file: BIBLIOGRAPHY
-    title: Bibliography
-  - file: notebooks/401_endmatter-thanks
 
 
 - caption: Urban Data Investigator 🕵️
@@ -52,7 +39,18 @@ parts:
 
 - caption: Developers 
   chapters:
-  - file: CONTRIBUTING
-    title: Contributing
+  - file: notebooks/documentation
   - file: CHANGELOG
     title: Changelog
+
+- caption: Preface
+  chapters:
+  - file: intro.ipynb
+
+- caption: Further Reading 
+  chapters:
+  - file: CONTRIBUTING
+    title: Contributing
+  - file: BIBLIOGRAPHY
+    title: Bibliography
+  - file: notebooks/401_endmatter-thanks
