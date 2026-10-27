@@ -13,19 +13,19 @@
     "datasetType": "dataset",
     "locks": [],
     "latestVersion": {
-      "id": 135,
+      "id": 162,
       "datasetId": 849,
       "datasetPersistentId": "doi:10.71830/AFW3N3",
       "datasetType": "dataset",
       "storageIdentifier": "s3_direct_storage://10.71830/AFW3N3",
       "versionNumber": 1,
-      "internalVersionNumber": 4,
-      "versionMinorNumber": 4,
+      "internalVersionNumber": 7,
+      "versionMinorNumber": 5,
       "versionState": "RELEASED",
       "latestVersionPublishingState": "RELEASED",
-      "lastUpdateTime": "2025-12-18T11:48:31Z",
-      "releaseTime": "2025-12-18T11:48:31Z",
-      "createTime": "2025-12-18T11:48:24Z",
+      "lastUpdateTime": "2026-07-14T09:29:23Z",
+      "releaseTime": "2026-07-14T09:29:23Z",
+      "createTime": "2026-07-14T09:18:23Z",
       "publicationDate": "2025-07-22",
       "citationDate": "2025-07-22",
       "license": {
@@ -393,11 +393,6 @@
             }
           ]
         },
-        "geospatial": {
-          "displayName": "Geospatial Metadata",
-          "name": "geospatial",
-          "fields": []
-        },
         "computationalworkflow": {
           "displayName": "Computational Workflow Metadata",
           "name": "computationalworkflow",
@@ -431,18 +426,18 @@
       },
       "files": [
         {
-          "label": "Assessment and Monitoring of Local Climate Regulation in Cities by Green Infrastructure—A National Ecosystem Service Indicator for Ge.pdf",
+          "label": "Assessment_and_Monitoring_of_Local_Climate_Regulation.pdf",
           "restricted": false,
           "directoryLabel": "other/paper",
-          "version": 1,
-          "datasetVersionId": 135,
+          "version": 3,
+          "datasetVersionId": 162,
           "categories": [
             "Article"
           ],
           "dataFile": {
             "id": 862,
             "persistentId": "",
-            "filename": "Assessment and Monitoring of Local Climate Regulation in Cities by Green Infrastructure—A National Ecosystem Service Indicator for Ge.pdf",
+            "filename": "Assessment_and_Monitoring_of_Local_Climate_Regulation.pdf",
             "contentType": "application/pdf",
             "friendlyType": "Adobe PDF",
             "filesize": 11200912,
@@ -460,23 +455,23 @@
             "creationDate": "2025-06-16",
             "publicationDate": "2025-07-22",
             "directoryLabel": "other/paper",
-            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "lastUpdateTime": "2026-07-14T09:29:23Z",
             "fileAccessRequest": true
           }
         },
         {
-          "label": "Climate regulation in cities as an ecosystem service_German.pdf",
+          "label": "Climate_regulation_in_cities_as_an_ecosystem_service_German.pdf",
           "restricted": false,
           "directoryLabel": "other/paper",
-          "version": 1,
-          "datasetVersionId": 135,
+          "version": 2,
+          "datasetVersionId": 162,
           "categories": [
             "Article"
           ],
           "dataFile": {
             "id": 911,
             "persistentId": "",
-            "filename": "Climate regulation in cities as an ecosystem service_German.pdf",
+            "filename": "Climate_regulation_in_cities_as_an_ecosystem_service_German.pdf",
             "contentType": "application/pdf",
             "friendlyType": "Adobe PDF",
             "filesize": 16359728,
@@ -494,7 +489,7 @@
             "creationDate": "2025-07-10",
             "publicationDate": "2025-07-22",
             "directoryLabel": "other/paper",
-            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "lastUpdateTime": "2026-07-14T09:29:23Z",
             "fileAccessRequest": true
           }
         },
@@ -503,7 +498,7 @@
           "restricted": false,
           "directoryLabel": "other/input_data",
           "version": 1,
-          "datasetVersionId": 135,
+          "datasetVersionId": 162,
           "dataFile": {
             "id": 902,
             "persistentId": "",
@@ -522,7 +517,7 @@
             "creationDate": "2025-07-03",
             "publicationDate": "2025-07-22",
             "directoryLabel": "other/input_data",
-            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "lastUpdateTime": "2026-07-14T09:29:23Z",
             "fileAccessRequest": true
           }
         },
@@ -531,7 +526,7 @@
           "restricted": false,
           "directoryLabel": "other/scripts",
           "version": 1,
-          "datasetVersionId": 135,
+          "datasetVersionId": 162,
           "categories": [
             "Documentation"
           ],
@@ -556,7 +551,7 @@
             "creationDate": "2025-07-03",
             "publicationDate": "2025-07-22",
             "directoryLabel": "other/scripts",
-            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "lastUpdateTime": "2026-07-14T09:29:23Z",
             "fileAccessRequest": true
           }
         },
@@ -566,7 +561,7 @@
           "restricted": false,
           "directoryLabel": "other/maps",
           "version": 1,
-          "datasetVersionId": 135,
+          "datasetVersionId": 162,
           "dataFile": {
             "id": 853,
             "persistentId": "",
@@ -586,7 +581,7 @@
             "creationDate": "2025-06-16",
             "publicationDate": "2025-07-22",
             "directoryLabel": "other/maps",
-            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "lastUpdateTime": "2026-07-14T09:29:23Z",
             "fileAccessRequest": true
           }
         },
@@ -596,7 +591,7 @@
           "restricted": false,
           "directoryLabel": "other/maps",
           "version": 1,
-          "datasetVersionId": 135,
+          "datasetVersionId": 162,
           "dataFile": {
             "id": 855,
             "persistentId": "",
@@ -616,7 +611,7 @@
             "creationDate": "2025-06-16",
             "publicationDate": "2025-07-22",
             "directoryLabel": "other/maps",
-            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "lastUpdateTime": "2026-07-14T09:29:23Z",
             "fileAccessRequest": true
           }
         },
@@ -626,7 +621,7 @@
           "restricted": false,
           "directoryLabel": "other/maps",
           "version": 1,
-          "datasetVersionId": 135,
+          "datasetVersionId": 162,
           "dataFile": {
             "id": 866,
             "persistentId": "",
@@ -646,7 +641,7 @@
             "creationDate": "2025-06-16",
             "publicationDate": "2025-07-22",
             "directoryLabel": "other/maps",
-            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "lastUpdateTime": "2026-07-14T09:29:23Z",
             "fileAccessRequest": true
           }
         },
@@ -656,7 +651,7 @@
           "restricted": false,
           "directoryLabel": "other/maps",
           "version": 1,
-          "datasetVersionId": 135,
+          "datasetVersionId": 162,
           "dataFile": {
             "id": 865,
             "persistentId": "",
@@ -676,7 +671,7 @@
             "creationDate": "2025-06-16",
             "publicationDate": "2025-07-22",
             "directoryLabel": "other/maps",
-            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "lastUpdateTime": "2026-07-14T09:29:23Z",
             "fileAccessRequest": true
           }
         },
@@ -686,7 +681,7 @@
           "restricted": false,
           "directoryLabel": "other/maps",
           "version": 1,
-          "datasetVersionId": 135,
+          "datasetVersionId": 162,
           "dataFile": {
             "id": 851,
             "persistentId": "",
@@ -706,7 +701,7 @@
             "creationDate": "2025-06-16",
             "publicationDate": "2025-07-22",
             "directoryLabel": "other/maps",
-            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "lastUpdateTime": "2026-07-14T09:29:23Z",
             "fileAccessRequest": true
           }
         },
@@ -716,7 +711,7 @@
           "restricted": false,
           "directoryLabel": "other/maps",
           "version": 1,
-          "datasetVersionId": 135,
+          "datasetVersionId": 162,
           "dataFile": {
             "id": 864,
             "persistentId": "",
@@ -736,7 +731,7 @@
             "creationDate": "2025-06-16",
             "publicationDate": "2025-07-22",
             "directoryLabel": "other/maps",
-            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "lastUpdateTime": "2026-07-14T09:29:23Z",
             "fileAccessRequest": true
           }
         },
@@ -746,7 +741,7 @@
           "restricted": false,
           "directoryLabel": "other/maps",
           "version": 1,
-          "datasetVersionId": 135,
+          "datasetVersionId": 162,
           "dataFile": {
             "id": 858,
             "persistentId": "",
@@ -766,7 +761,7 @@
             "creationDate": "2025-06-16",
             "publicationDate": "2025-07-22",
             "directoryLabel": "other/maps",
-            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "lastUpdateTime": "2026-07-14T09:29:23Z",
             "fileAccessRequest": true
           }
         },
@@ -774,7 +769,7 @@
           "label": "README.md",
           "restricted": false,
           "version": 1,
-          "datasetVersionId": 135,
+          "datasetVersionId": 162,
           "categories": [
             "Readme"
           ],
@@ -798,7 +793,7 @@
             "tabularData": false,
             "creationDate": "2025-07-22",
             "publicationDate": "2025-07-22",
-            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "lastUpdateTime": "2026-07-14T09:29:23Z",
             "fileAccessRequest": true
           }
         },
@@ -807,7 +802,7 @@
           "restricted": false,
           "directoryLabel": "other/scripts",
           "version": 1,
-          "datasetVersionId": 135,
+          "datasetVersionId": 162,
           "categories": [
             "Code"
           ],
@@ -832,7 +827,7 @@
             "creationDate": "2025-06-16",
             "publicationDate": "2025-07-22",
             "directoryLabel": "other/scripts",
-            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "lastUpdateTime": "2026-07-14T09:29:23Z",
             "fileAccessRequest": true
           }
         },
@@ -842,7 +837,7 @@
           "restricted": true,
           "directoryLabel": "data",
           "version": 1,
-          "datasetVersionId": 135,
+          "datasetVersionId": 162,
           "categories": [
             "Data"
           ],
@@ -868,7 +863,7 @@
             "creationDate": "2025-07-03",
             "publicationDate": "2025-07-22",
             "directoryLabel": "data",
-            "lastUpdateTime": "2025-12-18T11:48:31Z",
+            "lastUpdateTime": "2026-07-14T09:29:23Z",
             "fileAccessRequest": true
           }
         }

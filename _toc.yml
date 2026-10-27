@@ -9,7 +9,6 @@ parts:
   - file: notebooks/003_disclaimer.ipynb
 
 - caption: Getting started
-  numbered: 2
   chapters: 
   - file: notebooks/004_data_repository.ipynb
   - file: notebooks/005_setup.ipynb
@@ -19,7 +18,6 @@ parts:
   chapters:
   - file: notebooks/101_data_access
   - file: notebooks/102_download_from_dataverse
-  - file: notebooks/102_ioerDATA_API.ipynb
   - file: notebooks/103_explanation
   - file: notebooks/104_basic_visualization
   - file: notebooks/105_advanced_visualization
@@ -35,6 +33,8 @@ parts:
   - file: notebooks/310_mission6_unlock  
   - file: notebooks/312_mission7_unlock  
   - file: notebooks/314_mission8_unlock
+  - file: notebooks/316_achievements
+    title: "🏆 My Achievements"
   
 
 - caption: Developers 
