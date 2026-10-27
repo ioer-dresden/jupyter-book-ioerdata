@@ -40,13 +40,21 @@ jupyter:
 ## Urban Data Investigator 🕵️
 
 - [Mission 1](notebooks/301_mission1_content)
-- [Mission 2](notebooks/302_mission_2_unlock)
+- [Mission 1](notebooks/302_mission2_unlock)
 - [Mission 2](notebooks/303_mission2_content)
 - [Mission 2](notebooks/304_mission3_unlock)
 - [Mission 3](notebooks/305_mission3_contents)
-- [Mission 4](notebooks/304_produce_first_insights)
-- [Mission 5](notebooks/305_create_visual_evidence)
-- [Mission 6](notebooks/306_go_beyond)
+- [Mission 3](notebooks/306_mission4_unlock)
+- [Mission 4](notebooks/307_mission4_content)
+- [Mission 5](notebooks/308_mission5_unlock)
+- [Mission 5](notebooks/309_mission5_content)
+- [Mission 6](notebooks/310_mission6_unlock)
+- [Mission 6](notebooks/311_mission6_content)
+- [Mission 7](notebooks/312_mission7_unlock)
+- [Mission 7](notebooks/313_mission7_content)
+- [Mission 8](notebooks/314_mission8_unlock)
+- [Mission 8](notebooks/315_mission8_content)
+- [achievent](notebooks/316_achievements)
 
 ## Developers 👨‍💻
 
